@@ -1,0 +1,27 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout">
+	<ResponsivePopover title="" class="sapUiSizeCompact sapUiContentPadding cl_ResPopHead cl_ResPopTitle cl_ResPopFoot" placement="Top"
+		contentWidth="15rem" contentHeight="18rem" afterClose="fnResPopClose">
+		<customHeader>
+			<Bar class="sapMIBar">
+				<contentLeft>
+					<Image src="images/BotImg.png" width="28px" height="28px" class="cl_ChatBotHeadImage" tooltip="BotImage"></Image>
+					<Title text="Chat with your Bot"/>
+				</contentLeft>
+				<contentRight>
+					<Button text="" icon="sap-icon://decline" press="fnChatBotClose" tooltip="Close"></Button>
+				</contentRight>
+			</Bar>
+		</customHeader>
+		<content>
+			<HBox></HBox>
+			<VBox focusable="true" id="id_VBChatWindow"></VBox>
+		</content>
+		<beginButton>
+			<HBox>
+				<Input id="id_IPReply" width="100%" placeholder="Write Something..." submit="fnChatBotWriteTextOnEnter" liveChange="fnLiveChngWriteReply"
+					class="cl_IPWriteReplyResPop"/>
+				<Button id="id_BtnResPopBotOnEnter" width="20%" icon="sap-icon://arrow-right" enabled="true" press="fnChatBotWriteTextOnEnter"/>
+			</HBox>
+		</beginButton>
+	</ResponsivePopover>
+</core:FragmentDefinition>

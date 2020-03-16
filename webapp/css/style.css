@@ -1,0 +1,65 @@
+/* Enter your custom styles here */
+
+.cl_ResPopFoot .sapMIBar-CTX .sapMFooter-CTX {
+    background-color: white !important;
+}
+
+.cl_IPWriteReplyResPop .sapMInputBaseInner {
+    border: none;
+}
+
+.cl_ResPopHead .sapMPopUp-CTX .sapMPopOverHeader .sapMIBar .sapMHeader-CTX {
+    background-color: skyblue;
+}
+
+.cl_ResPopTitle .sapMPopOverHeader .sapMTitle {
+    color: white !important;
+}
+
+.sapMIBar-CTX .sapMFooter-CTX .sapMBtnInner>.sapMBtnIcon {
+    color: black;
+    text-shadow: none;
+}
+
+.cl_chatFlexBox {
+    background-color: lightskyblue;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.cl_UserIPTextClr {
+    border-radius: 10px;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: lightskyblue;
+    color: white;
+}
+
+.cl_BotIPTextClr {
+    border-radius: 10px;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: lightgray;
+}
+
+.cl_ImgUser {
+    height: 19px;
+    width: 19px;
+    margin-left: 4px;
+}
+
+.cl_ImgBot {
+    height: 19px;
+    width: 19px;
+    margin-right: 4px;
+}
+
+.cl_ChatBotHeadImage {
+    margin-bottom: 25px;
+}
